@@ -22,7 +22,7 @@ int main()
     }
 
     printf("Enter the data that you want to write : \n");
-    scanf(" %[^'\n']s",Arr);
+    scanf(" %[^'\n']s",Arr);            //jopryant tyat new line madhi data yet nahi topryant  
 
     write(fd,Arr,strlen(Arr));
     

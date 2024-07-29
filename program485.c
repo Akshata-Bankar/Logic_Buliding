@@ -25,7 +25,7 @@ int main()
     while((iRet = read(fd,Buffer,sizeof(Buffer))) != 0)
     {
         printf("%s",Buffer);
-        memset(Buffer,0,sizeof(Buffer));
+        memset(Buffer,0,sizeof(Buffer));        //jo data urla ahe tithun start honya sathi
     }
 
     close(fd);

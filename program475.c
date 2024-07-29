@@ -30,5 +30,5 @@ int main()
     O_WRONLY        WRITE MODE
     O_RDWR          READ + WRITE MODE
     O_CREATE        CREATE MODE
-    O_APPEND        APPEND MODE
+    O_APPEND        APPEND MODE     //jo apn data adhi lihla ahe tyachya pudh lihava 
 */
